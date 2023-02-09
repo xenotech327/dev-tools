@@ -1,7 +1,6 @@
 {
     "name": "Dev-tools Angular container",
     "dockerFile": "Dockerfile",
-    "appPort": [4200],
     "postCreateCommand": "npm install",
     "extensions": [
       "devondcarew.bazel-code",
